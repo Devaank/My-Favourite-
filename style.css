@@ -1,0 +1,54 @@
+.line{
+height:6px;
+    width:70px;
+    background-color:black;
+    margin:8px auto;
+}
+body{
+    text-align:center;
+}
+#welcome{
+   background:linear-gradient(#60ebeb 0%, #27ae60 100%); 
+}
+#para{
+    background-color:hotpink;
+}
+.menu{
+    background:white;
+    font-family:sans-serif;
+    position:fixed;
+    top:0;
+    margin-top:0px;
+    width:100%;
+    z-index:10;
+    cursor:pointer;
+}
+.links{
+    display:inline;
+    color:white;
+    
+    padding-left:33px;    
+    padding-right:25px;
+
+    font-family:fantasy;
+    font-size:20px;
+}
+.links:hover{
+    background-color:aqua;
+    font-size:25px;
+}
+img{
+  width:300px;
+    border-radius:50%;   
+}
+.contact_1{
+background-color:red;
+}
+.contact_1 h3{
+    display:inline;
+} 
+.contact_1 a{
+    color:white;
+    text-shadow:none;
+}
+
